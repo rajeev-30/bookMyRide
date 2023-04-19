@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <div class="col">
+            <h3 class="title">billing address</h3>
+
+            <div class="inputBox">
+              <span>full name :</span>
+              <input type="text" placeholder="john deo" required pattern="[A-Za-z\s]+" title="Please enter only letters and spaces" />
+            </div>
+            
+            <div class="inputBox">
+              <span>email :</span>
+              <input type="email" placeholder="example@example.com" required 
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              oninvalid="this.setCustomValidity('Please enter a valid email address')"
+              oninput="this.setCustomValidity('')"/>
+            </div>
+            
+            <div class="inputBox">
+              <span>address :</span>
+              <input type="text" placeholder="room - street - locality" required pattern="^[a-zA-Z0-9\s,'-]*$"/>
+              <small>Please enter a valid address (letters, numbers, spaces, commas, apostrophes, and hyphens only).</small>
+            </div>
+            
+            <!-- <div class="inputBox">
+              <span>city :</span>
+              <input type="text" placeholder="mumbai" />
+            </div> -->
+
+            <div class="inputBox">
+              <span>city :</span>
+              <input type="text" placeholder="mumbai" required pattern="[a-zA-Z]+(?:[\s-][a-zA-Z]+)*" title="Enter a valid city name" />
+            </div>
+            
+              <!-- <div class="inputBox">
+                <span>zip code :</span>
+                <input type="text" placeholder="123 456" />
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col">
+            <h3 class="title">payment</h3>
+
+            <div class="inputBox">
+              <span>cards accepted :</span>
+              <img src="assets/images/card_img.png" alt="" />
+            </div>
+            <div class="inputBox">
+              <span>name on card :</span>
+              <input type="text" placeholder="mr. john deo" name="name_on_card" pattern="[a-zA-Z]+\s[a-zA-Z]+">
+
+            </div>
+            <div class="inputBox">
+              <span>credit card number :</span>
+              <input type="text" placeholder="1111-2222-3333-4444" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" required />
+
+            </div>
+            <div class="inputBox">
+              <span>exp month :</span>
+              <input type="text" placeholder="january" pattern="(January|February|March|April|May|June|July|August|September|October|November|December)" required />
+
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>exp year :</span>
+                <input type="number" placeholder="2022" min="1900" max="2099" required>
+
+              </div>
+              <div class="inputBox">
+                <span>CVV :</span>
+                <input type="text" placeholder="1234" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <input type="submit" onclick="showPopup() value="proceed to checkout" class="submit-btn" /> -->
+        <button class="submit-btn" onclick="showPopup()">proceed to checkout</button>
+
+      </form>
+    </div>
+    <script>
+        function showPopup() {
+            
+  alert("Payment successful");
+}
+
+
+//       function validateForm() {
+//   // get form fields
+//   const name = document.getElementById("name").value;
+//   const email = document.getElementById("email").value;
+//   const address = document.getElementById("address").value;
+//   const city = document.getElementById("city").value;
+//   const state = document.getElementById("state").value;
+// //   const zip = document.getElementById("zip").value;
+//   const cardName = document.getElementById("card-name").value;
+//   const cardNumber = document.getElementById("card-number").value;
+//   const expMonth = document.getElementById("exp-month").value;
+//   const expYear = document.getElementById("exp-year").value;
+//   const cvv = document.getElementById("cvv").value;
+
+//   // check if any field is empty
+//   if (
+//     !name ||
+//     !email ||
+//     !address ||
+//     !city ||
+//     !state ||
+//     !zip ||
+//     !cardName ||
+//     !cardNumber ||
+//     !expMonth ||
+//     !expYear ||
+//     !cvv
+//   ) {
+//     alert("Please fill in all fields before proceeding to checkout.");
+//     return false;
+//   }
+//   else{
+//     alert("Payment successful!");
+//     return true;
+//   }
+  
+// }
+
+
+    </script>
+  </body>
+</html>
