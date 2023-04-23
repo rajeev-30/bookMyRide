@@ -93,52 +93,52 @@
 
       </form>
     </div>
-    <script>
-        function showPopup() {
+   <script>
+//         function showPopup() {
             
-  alert("Payment successful");
-}
+//   alert("Payment successful");
+// } 
 
+ 
+       function showPopup() {
+  // get form fields
+   const name = document.getElementById("name").value;
+   const email = document.getElementById("email").value;
+   const address = document.getElementById("address").value;
+   const city = document.getElementById("city").value;
+   const state = document.getElementById("state").value;
+   const zip = document.getElementById("zip").value;
+   const cardName = document.getElementById("card-name").value;
+  const cardNumber = document.getElementById("card-number").value;
+   const expMonth = document.getElementById("exp-month").value;
+   const expYear = document.getElementById("exp-year").value;
+   const cvv = document.getElementById("cvv").value;
 
-//       function validateForm() {
-//   // get form fields
-//   const name = document.getElementById("name").value;
-//   const email = document.getElementById("email").value;
-//   const address = document.getElementById("address").value;
-//   const city = document.getElementById("city").value;
-//   const state = document.getElementById("state").value;
-// //   const zip = document.getElementById("zip").value;
-//   const cardName = document.getElementById("card-name").value;
-//   const cardNumber = document.getElementById("card-number").value;
-//   const expMonth = document.getElementById("exp-month").value;
-//   const expYear = document.getElementById("exp-year").value;
-//   const cvv = document.getElementById("cvv").value;
-
-//   // check if any field is empty
-//   if (
-//     !name ||
-//     !email ||
-//     !address ||
-//     !city ||
-//     !state ||
-//     !zip ||
-//     !cardName ||
-//     !cardNumber ||
-//     !expMonth ||
-//     !expYear ||
-//     !cvv
-//   ) {
-//     alert("Please fill in all fields before proceeding to checkout.");
-//     return false;
-//   }
-//   else{
-//     alert("Payment successful!");
-//     return true;
-//   }
+// check if any field is empty
+  if (
+     !name ||
+    !email ||
+     !address ||
+     !city ||
+    !state ||
+    !zip ||
+    !cardName ||
+    !cardNumber ||
+     !expMonth ||
+     !expYear ||
+     !cvv
+   ) {
+    alert("Please fill in all fields before proceeding to checkout.");
+    return false;
+  }
+  else{
+     alert("Payment successful!");
+     return true;
+  }
   
-// }
+ } 
 
 
-    </script>
+   </script>
   </body>
 </html>
