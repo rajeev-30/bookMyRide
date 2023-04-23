@@ -1,4 +1,5 @@
 How to run Project
+
 1. Download and Unzip the file on your local system copy carrental .
 2. Put carrental folder inside root directory (for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
 
@@ -19,3 +20,6 @@ Open Your browser put inside browser “http://localhost/carrental/admin”
 Login Details for admin :
 Username: admin
 Password: Test@12345
+
+Check this out, website is now live!
+https://bookmyride30.000webhostapp.com/
