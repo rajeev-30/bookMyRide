@@ -49,7 +49,7 @@ include('includes/config.php');
     <link rel="stylesheet" href="team-css.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" /> -->
-    <script src="https://kit.fontawesome.com/a5ba3abdc4.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/a5ba3abdc4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -162,7 +162,7 @@ in picking up the path and guide their learnings. -->
                                         class="fa-brands fa-linkedin fa-lg"></i></a>
                                 <a href="#" target="main"><i
                                         class="fa-brands fa-twitter fa-lg"></i></a>
-                                <a href="https://discord.com/channels/@me" target="main"><i
+                                <a href="#" target="main"><i
                                         class="fa-brands fa-discord fa-lg"></i></a>
                             </div>
                         </div>
