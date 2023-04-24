@@ -103,22 +103,9 @@ include('includes/config.php');
 
 
                     <h2>About Us </h2>
-                    <p><span style="color: rgb(51, 51, 51); ">We
-                            offer a varied fleet of cars, ranging from the compact. All our vehicles have air
-                            conditioning, &nbsp;power steering, electric windows. All our vehicles are bought and
-                            maintained at official dealerships only. Automatic transmission cars are available in every
-                            booking class.&nbsp;</span><span
-                            style="color: rgb(52, 52, 52); font-family: Arial, Helvetica, sans-serif;">As we are not
-                            affiliated with any specific automaker, we are able to provide a variety of vehicle makes
-                            and models for customers to rent.</span></p>
-                    <div><span style="color: rgb(62, 62, 62);">
-                            Our
-                            mission is to be recognised as the global leader in Car Rental for companies and the public
-                            and private sector by partnering with our clients to provide the best and most efficient Cab
-                            Rental solutions and to achieve service excellence.</span><span
-                            style=" color: rgb(52, 52, 52); font-family: Arial, Helvetica, sans-serif;"><br></span>
-                    </div>
-                    <p></p>
+                    <p style="font-size: 1.2em; font-weight: bold; font-family: Arial, sans-serif; color: #333333;">We offer a varied fleet of cars, ranging from the compact. All our vehicles have air conditioning, power steering, electric windows. All our vehicles are bought and maintained at official dealerships only. Automatic transmission cars are available in every booking class.</p>
+<div style="font-style: italic; font-family: Georgia, serif; color: #404040;">As we are not affiliated with any specific automaker, we are able to provide a variety of vehicle makes and models for customers to rent.</div>
+<p style="font-size: 1.1em; font-family: Arial, sans-serif; color: #3E3E3E; margin-top: 20px;">Our mission is to be recognised as the global leader in Car Rental for companies and the public and private sector by partnering with our clients to provide the best and most efficient Cab Rental solutions and to achieve service excellence.</p>
                 </div>
             </div>
 
