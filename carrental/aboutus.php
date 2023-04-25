@@ -122,7 +122,7 @@ in picking up the path and guide their learnings. -->
                     </div>
                     <div class="about1">
                         <div class="ab1">
-                            <img src="assets/images/rajeev2.jpg" alt="" height="140px" width="140px">
+                            <img src="assets/images/rajeev1.jpg" alt="" height="160px" width="160px">
                             <h5>Rajeev Kumar</h5>
                             <span class=" small text-uppercase text-muted">CEO - Founder</span>
                             <div class="icons">
@@ -138,50 +138,50 @@ in picking up the path and guide their learnings. -->
                         </div>
 
                         <div class="ab1">
-                            <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-2.png" alt="" height="90px"">
+                            <img src="assets/images/aryan.jpg" alt="" height="140px" width="140px">
           <h5>Aryan Narayan</h5>
           <span class=" small text-uppercase text-muted">Co-Founder</span>
                             <div class="icons">
 
-                                <a href="#" target="main"><i
+                                <a href="https://www.instagram.com/a______r_____y_____a_____n/" target="main"><i
                                         class="fa-brands fa-instagram fa-lg"></i></a>
-                                <a href="#" target="main"><i
+                                <a href="https://www.linkedin.com/in/aryan-narayan-06805a217" target="main"><i
                                         class="fa-brands fa-linkedin fa-lg"></i></a>
-                                <a href="#" target="main"><i
-                                        class="fa-brands fa-twitter fa-lg"></i></a>
-                                <a href="#" target="main"><i
-                                        class="fa-brands fa-discord fa-lg"></i></a>
+                                <a href="https://github.com/Aryan-788" target="main"><i
+                                        class="fa-brands fa-github fa-lg"></i></a>
+                                <a href="https://www.facebook.com/aditi.srivastava.77736" target="main"><i
+                                        class="fa-brands fa-facebook fa-lg"></i></a>
                             </div>
                         </div>
 
                         <div class="ab1">
-                            <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-2.png" alt="" height="90px"">
-          <h5>kuldeep Jhakar</h5>
+                            <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-2.png" alt="" height="140px" width="140px">
+          <h5>kuldeep Jakhar</h5>
           <span class=" small text-uppercase text-muted">Tecchnical Lead</span>
                             <div class="icons">
                             <a href="#" target="main"><i
                                         class="fa-brands fa-instagram fa-lg"></i></a>
-                                <a href="#" target="main"><i
+                                <a href="https://www.linkedin.com/in/vaasu-jakhar-732927247/" target="main"><i
                                         class="fa-brands fa-linkedin fa-lg"></i></a>
-                                <a href="#" target="main"><i
-                                        class="fa-brands fa-twitter fa-lg"></i></a>
+                                <a href="https://github.com/vaasujakhar" target="main"><i
+                                        class="fa-brands fa-github fa-lg"></i></a>
                                 <a href="#" target="main"><i
                                         class="fa-brands fa-discord fa-lg"></i></a>
                             </div>
                         </div>
 
                         <div class="ab1">
-                            <img src="https://bootstrapious.com/i/snippets/sn-about/avatar-2.png" alt="" height="90px"">
+                            <img src="assets/images/ankit.jpeg" alt="" height="140px" width="140px">
           <h5>Ankit Kumar</h5>
           <span class=" small text-uppercase text-muted">Marketing Managar</span>
                             <div class="icons">
-                            <a href="#" target="main"><i
+                            <a href="https://instagram.com/ankitkaushal8292/" target="main"><i
                                         class="fa-brands fa-instagram fa-lg"></i></a>
-                                <a href="#" target="main"><i
+                                <a href="https://www.linkedin.com/in/ankit-kumar-kaushal-9778aa234/" target="main"><i
                                         class="fa-brands fa-linkedin fa-lg"></i></a>
-                                <a href="#" target="main"><i
-                                        class="fa-brands fa-twitter fa-lg"></i></a>
-                                <a href="#" target="main"><i
+                                <a href="" target="main"><i
+                                        class="fa-brands fa-github fa-lg"></i></a>
+                                <a href="https://github.com/ankitkaushal8292" target="main"><i
                                         class="fa-brands fa-discord fa-lg"></i></a>
                             </div>
                         </div>
