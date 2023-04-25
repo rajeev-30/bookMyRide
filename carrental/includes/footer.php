@@ -35,7 +35,7 @@ if (isset($_POST['emailsubscibe'])) {
 
 
             <!-- <li><a href="aboutus.php">About Us</a></li> -->
-            <li><a href="page.php?type=faqs">FAQs</a></li>
+            <!-- <li><a href="page.php?type=faqs">FAQs</a></li> -->
             <li><a href="privacy.php">Privacy</a></li>
             <li><a href="TermsForUse.php">Terms of use</a></li>
             <li><a href="admin/">Admin Login</a></li>
